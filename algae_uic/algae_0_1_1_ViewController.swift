@@ -7,3 +7,18 @@
 //
 
 import Foundation
+
+
+import UIKit
+
+class algae_0_1_1_ViewController: UIViewController {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    
+}
+
+

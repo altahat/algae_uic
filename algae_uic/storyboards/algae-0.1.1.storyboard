@@ -10,20 +10,20 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Algae011 View Controller-->
         <scene sceneID="Kna-41-2aQ">
             <objects>
-                <viewController id="nhu-aU-lSY" sceneMemberID="viewController">
+                <viewController id="nhu-aU-lSY" customClass="algae_0_1_1_ViewController" customModule="algae_uic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kjQ-3n-fLa">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Header" translatesAutoresizingMaskIntoConstraints="NO" id="9ql-9v-by7">
-                                <rect key="frame" x="0.0" y="20" width="375" height="52"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fuR-Sv-Bc9">
-                                <rect key="frame" x="16" y="34" width="24" height="24"/>
+                                <rect key="frame" x="16" y="44" width="21" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="Hamburger Menu"/>
                             </button>
