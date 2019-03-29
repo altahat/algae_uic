@@ -1,5 +1,5 @@
 //
-//  algae_0_1_1_1_Delegate.swift
+//  algae_0_1_1_2_Delegate.swift
 //  algae_uic
 //
 //  Created by Darmawan Truong on 3/28/19.
@@ -8,8 +8,8 @@
 
 import UIKit
 
-//@UIApplicationMain
-class algae_0_1_1_1_Delegate: UIResponder, UIApplicationDelegate {
+@UIApplicationMain
+class algae_0_1_1_2_Delegate: UIResponder, UIApplicationDelegate {
     
     var window: UIWindow?
     
