@@ -1,9 +1,9 @@
 //
-//  AppDelegate.swift
-//  Mui_Assignment4
+//  algae_0_1_2_AppDelegate.swift
+//  algae_uic
 //
-//  Created by GabrielMui on 3/3/19.
-//  Copyright © 2019 GabrielMui. All rights reserved.
+//  Created by GabrielMui on 3/30/19.
+//  Copyright © 2019 zaid. All rights reserved.
 //
 
 import UIKit
