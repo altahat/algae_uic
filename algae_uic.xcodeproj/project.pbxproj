@@ -13,6 +13,9 @@
 		05F18E24224D8E110077D0F2 /* algae_0_1_1_1_Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F18E23224D8E110077D0F2 /* algae_0_1_1_1_Delegate.swift */; };
 		05F18E26224D95910077D0F2 /* algae_0_1_1_2_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F18E25224D95910077D0F2 /* algae_0_1_1_2_ViewController.swift */; };
 		05F18E28224D95A60077D0F2 /* algae_0_1_1_2_Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F18E27224D95A60077D0F2 /* algae_0_1_1_2_Delegate.swift */; };
+		4DA82971224DD8E7001FC7F5 /* algae_0_1_2_2_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA82970224DD8E7001FC7F5 /* algae_0_1_2_2_ViewController.swift */; };
+		4DA82973224DD9CD001FC7F5 /* algae_0_1_2_2_Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA82972224DD9CD001FC7F5 /* algae_0_1_2_2_Delegate.swift */; };
+		5F16735822529DAE00708F9F /* button (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 5F16735722529DAE00708F9F /* button (1).png */; };
 		B83E2744223D882F00EA8F27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83E2743223D882F00EA8F27 /* AppDelegate.swift */; };
 		B83E2746223D882F00EA8F27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83E2745223D882F00EA8F27 /* ViewController.swift */; };
 		B83E2749223D882F00EA8F27 /* Main.0.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B83E2747223D882F00EA8F27 /* Main.0.storyboard */; };
@@ -45,6 +48,8 @@
 		B83E2787223D8F0500EA8F27 /* algae-0.1.4.2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B83E2786223D8F0500EA8F27 /* algae-0.1.4.2.storyboard */; };
 		B83E2789223D8F1500EA8F27 /* algae-0.1.5.1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B83E2788223D8F1500EA8F27 /* algae-0.1.5.1.storyboard */; };
 		B83E278B223D8F8400EA8F27 /* algae-0.1.5.2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B83E278A223D8F8400EA8F27 /* algae-0.1.5.2.storyboard */; };
+		C0A7F1E5225177B50069F563 /* algae_0_1_2_AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A7F1E4225177B50069F563 /* algae_0_1_2_AppDelegate.swift */; };
+		C0A7F1E72251783E0069F563 /* algae_0_1_2_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A7F1E62251783E0069F563 /* algae_0_1_2_ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +59,9 @@
 		05F18E23224D8E110077D0F2 /* algae_0_1_1_1_Delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = algae_0_1_1_1_Delegate.swift; sourceTree = "<group>"; };
 		05F18E25224D95910077D0F2 /* algae_0_1_1_2_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = algae_0_1_1_2_ViewController.swift; sourceTree = "<group>"; };
 		05F18E27224D95A60077D0F2 /* algae_0_1_1_2_Delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = algae_0_1_1_2_Delegate.swift; sourceTree = "<group>"; };
+		4DA82970224DD8E7001FC7F5 /* algae_0_1_2_2_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = algae_0_1_2_2_ViewController.swift; sourceTree = "<group>"; };
+		4DA82972224DD9CD001FC7F5 /* algae_0_1_2_2_Delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = algae_0_1_2_2_Delegate.swift; sourceTree = "<group>"; };
+		5F16735722529DAE00708F9F /* button (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button (1).png"; path = "../../../../../Downloads/button (1).png"; sourceTree = "<group>"; };
 		B83E2740223D882F00EA8F27 /* algae_uic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = algae_uic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B83E2743223D882F00EA8F27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B83E2745223D882F00EA8F27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -88,6 +96,8 @@
 		B83E2786223D8F0500EA8F27 /* algae-0.1.4.2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "algae-0.1.4.2.storyboard"; sourceTree = "<group>"; };
 		B83E2788223D8F1500EA8F27 /* algae-0.1.5.1.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "algae-0.1.5.1.storyboard"; sourceTree = "<group>"; };
 		B83E278A223D8F8400EA8F27 /* algae-0.1.5.2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "algae-0.1.5.2.storyboard"; sourceTree = "<group>"; };
+		C0A7F1E4225177B50069F563 /* algae_0_1_2_AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = algae_0_1_2_AppDelegate.swift; sourceTree = "<group>"; };
+		C0A7F1E62251783E0069F563 /* algae_0_1_2_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = algae_0_1_2_ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,12 +132,16 @@
 			children = (
 				B83E2743223D882F00EA8F27 /* AppDelegate.swift */,
 				B83E2745223D882F00EA8F27 /* ViewController.swift */,
+				C0A7F1E4225177B50069F563 /* algae_0_1_2_AppDelegate.swift */,
+				C0A7F1E62251783E0069F563 /* algae_0_1_2_ViewController.swift */,
 				05F18E1D224D757F0077D0F2 /* algae_0_1_1_ViewController.swift */,
 				05F18E1F224D759C0077D0F2 /* algae_0_1_1_Delegate.swift */,
 				05F18E21224D8DF90077D0F2 /* algae_0_1_1_1_ViewController.swift */,
 				05F18E23224D8E110077D0F2 /* algae_0_1_1_1_Delegate.swift */,
 				05F18E25224D95910077D0F2 /* algae_0_1_1_2_ViewController.swift */,
 				05F18E27224D95A60077D0F2 /* algae_0_1_1_2_Delegate.swift */,
+				4DA82970224DD8E7001FC7F5 /* algae_0_1_2_2_ViewController.swift */,
+				4DA82972224DD9CD001FC7F5 /* algae_0_1_2_2_Delegate.swift */,
 				B83E2757223D8B3500EA8F27 /* storyboards */,
 				B83E274A223D883300EA8F27 /* Assets.xcassets */,
 				B83E274C223D883300EA8F27 /* LaunchScreen.storyboard */,
@@ -144,6 +158,7 @@
 				B83E2758223D8B5500EA8F27 /* algae-0.2.storyboard */,
 				B83E275A223D8B6100EA8F27 /* algae-0.1.1.storyboard */,
 				B83E2762223D8BF400EA8F27 /* algae-0.1.1.1.storyboard */,
+				5F16735722529DAE00708F9F /* button (1).png */,
 				B83E2764223D8BFC00EA8F27 /* algae-0.1.1.2.storyboard */,
 				B83E2766223D8C0600EA8F27 /* algae-0.1.1.3.storyboard */,
 				B83E2768223D8C0E00EA8F27 /* algae-0.1.1.4.storyboard */,
@@ -246,6 +261,7 @@
 				B83E2785223D8EF900EA8F27 /* algae-0.1.4.1.storyboard in Resources */,
 				B83E275F223D8BB000EA8F27 /* algae-0.1.3.storyboard in Resources */,
 				B83E2765223D8BFC00EA8F27 /* algae-0.1.1.2.storyboard in Resources */,
+				5F16735822529DAE00708F9F /* button (1).png in Resources */,
 				B83E2787223D8F0500EA8F27 /* algae-0.1.4.2.storyboard in Resources */,
 				B83E2781223D8CEE00EA8F27 /* algae-0.1.3.3.storyboard in Resources */,
 				B83E277F223D8CE500EA8F27 /* algae-0.1.3.2.storyboard in Resources */,
@@ -271,12 +287,16 @@
 			files = (
 				05F18E20224D759C0077D0F2 /* algae_0_1_1_Delegate.swift in Sources */,
 				B83E2746223D882F00EA8F27 /* ViewController.swift in Sources */,
+				C0A7F1E72251783E0069F563 /* algae_0_1_2_ViewController.swift in Sources */,
 				05F18E24224D8E110077D0F2 /* algae_0_1_1_1_Delegate.swift in Sources */,
 				05F18E28224D95A60077D0F2 /* algae_0_1_1_2_Delegate.swift in Sources */,
+				4DA82973224DD9CD001FC7F5 /* algae_0_1_2_2_Delegate.swift in Sources */,
 				05F18E1E224D757F0077D0F2 /* algae_0_1_1_ViewController.swift in Sources */,
+				C0A7F1E5225177B50069F563 /* algae_0_1_2_AppDelegate.swift in Sources */,
 				B83E2744223D882F00EA8F27 /* AppDelegate.swift in Sources */,
 				05F18E26224D95910077D0F2 /* algae_0_1_1_2_ViewController.swift in Sources */,
 				05F18E22224D8DF90077D0F2 /* algae_0_1_1_1_ViewController.swift in Sources */,
+				4DA82971224DD8E7001FC7F5 /* algae_0_1_2_2_ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
