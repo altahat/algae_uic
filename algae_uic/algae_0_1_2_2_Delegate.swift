@@ -8,7 +8,7 @@
 
 import UIKit
 
-@UIApplicationMain
+//@UIApplicationMain
 
 class algae_0_1_2_2_Delegate: UIResponder, UIApplicationDelegate {
     
