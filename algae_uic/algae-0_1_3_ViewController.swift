@@ -11,7 +11,7 @@ import UIKit
 var list = ["Can the toxin be removed?",
             "What about fish?",
             "What is a harfmul algae bloom(HAB)?",
-            "What are symptoms of toxic algae",
+            "What are symptoms of toxic algae?",
             "What are the 7 major types of algae?",
             "Which toxin is relevant in HAB?",
             "Who can I talk to with for more questions?",
@@ -34,6 +34,7 @@ class algae_0_1_3_ViewController: UIViewController, UITableViewDelegate, UITable
         let cell = UITableViewCell(style: UITableViewCell.CellStyle.default, reuseIdentifier: "cell")
         cell.textLabel?.text = list[indexPath.row]
         cell.textLabel?.font = UIFont(name:"Avenir light", size:16)
+
         return(cell)
     }
     
