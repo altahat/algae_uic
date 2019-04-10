@@ -59,6 +59,7 @@
 		C0C8A839225DC8600044E80D /* algae_0_2_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C8A838225DC8600044E80D /* algae_0_2_ViewController.swift */; };
 		C0C8A83B225DC8C40044E80D /* algae_0_2_MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C8A83A225DC8C40044E80D /* algae_0_2_MenuViewController.swift */; };
 		C0C8A83D225DC8FD0044E80D /* algae_0_2_AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C8A83C225DC8FD0044E80D /* algae_0_2_AppDelegate.swift */; };
+		C0C8A83F225DD4AC0044E80D /* algae_0_2_SlideInTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C8A83E225DD4AC0044E80D /* algae_0_2_SlideInTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -116,6 +117,7 @@
 		C0C8A838225DC8600044E80D /* algae_0_2_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = algae_0_2_ViewController.swift; sourceTree = "<group>"; };
 		C0C8A83A225DC8C40044E80D /* algae_0_2_MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = algae_0_2_MenuViewController.swift; sourceTree = "<group>"; };
 		C0C8A83C225DC8FD0044E80D /* algae_0_2_AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = algae_0_2_AppDelegate.swift; sourceTree = "<group>"; };
+		C0C8A83E225DD4AC0044E80D /* algae_0_2_SlideInTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = algae_0_2_SlideInTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 			children = (
 				B83E2743223D882F00EA8F27 /* AppDelegate.swift */,
 				B83E2745223D882F00EA8F27 /* ViewController.swift */,
+				C0C8A83E225DD4AC0044E80D /* algae_0_2_SlideInTransition.swift */,
 				C0C8A838225DC8600044E80D /* algae_0_2_ViewController.swift */,
 				C0C8A83A225DC8C40044E80D /* algae_0_2_MenuViewController.swift */,
 				C0C8A83C225DC8FD0044E80D /* algae_0_2_AppDelegate.swift */,
@@ -329,6 +332,7 @@
 				05F18E26224D95910077D0F2 /* algae_0_1_1_2_ViewController.swift in Sources */,
 				05F18E22224D8DF90077D0F2 /* algae_0_1_1_1_ViewController.swift in Sources */,
 				1D55DB5E225D215F00B1909B /* algae-0_1_3_2_AppDelegate.swift in Sources */,
+				C0C8A83F225DD4AC0044E80D /* algae_0_2_SlideInTransition.swift in Sources */,
 				C0C8A839225DC8600044E80D /* algae_0_2_ViewController.swift in Sources */,
 				1D55DB61225D215F00B1909B /* algae-0_1_3_ViewController.swift in Sources */,
 				C0C8A83B225DC8C40044E80D /* algae_0_2_MenuViewController.swift in Sources */,
