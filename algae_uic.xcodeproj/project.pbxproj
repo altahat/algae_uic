@@ -174,6 +174,11 @@
 				4DA82972224DD9CD001FC7F5 /* algae_0_1_2_2_Delegate.swift */,
 				1D55DB5A225D215E00B1909B /* algae-0_1_3_2_AppDelegate.swift */,
 				1D55DB5B225D215E00B1909B /* algae-0_1_3_2_ViewController.swift */,
+<<<<<<< HEAD
+=======
+				05941F0122653A5F00661E5D /* algae_0_1_3_4_AppDelegate.swift */,
+				05941F0222653A5F00661E5D /* algae_0_1_3_4_ViewController.swift */,
+>>>>>>> fd70a6254418f6abdcf2b0aaeddb7b5b7026628a
 				1D55DB5C225D215F00B1909B /* algae-0_1_3_AppDelegate.swift */,
 				1D55DB5D225D215F00B1909B /* algae-0_1_3_ViewController.swift */,
 				3F5875F72252AE2700611355 /* algae_0_1_5_ViewController.swift */,
@@ -333,15 +338,26 @@
 				05F18E1E224D757F0077D0F2 /* algae_0_1_1_ViewController.swift in Sources */,
 				C0A7F1E5225177B50069F563 /* algae_0_1_2_AppDelegate.swift in Sources */,
 				1D55DB5F225D215F00B1909B /* algae-0_1_3_2_ViewController.swift in Sources */,
+<<<<<<< HEAD
 				C0C8A83D225DC8FD0044E80D /* algae_0_2_AppDelegate.swift in Sources */,
 				05941EBE22643EE000661E5D /* algae_0_1_1_5_Delegate.swift in Sources */,
+=======
+				1D362D022262BF220004C84A /* algae-0_1_1_9_AppDelegate.swift in Sources */,
+				C031CFA222651A8300C10A50 /* algae_0_2_MenuViewController.swift in Sources */,
+				1D362D012262BF220004C84A /* algae-0_1_1_9_ViewController.swift in Sources */,
+>>>>>>> fd70a6254418f6abdcf2b0aaeddb7b5b7026628a
 				3F5875F82252AE2700611355 /* algae_0_1_5_ViewController.swift in Sources */,
 				B83E2744223D882F00EA8F27 /* AppDelegate.swift in Sources */,
 				05F18E26224D95910077D0F2 /* algae_0_1_1_2_ViewController.swift in Sources */,
 				05F18E22224D8DF90077D0F2 /* algae_0_1_1_1_ViewController.swift in Sources */,
 				1D55DB5E225D215F00B1909B /* algae-0_1_3_2_AppDelegate.swift in Sources */,
+<<<<<<< HEAD
 				C0C8A83F225DD4AC0044E80D /* algae_0_2_SlideInTransition.swift in Sources */,
 				C0C8A839225DC8600044E80D /* algae_0_2_ViewController.swift in Sources */,
+=======
+				1D362CFE2262ABD10004C84A /* algae-0_1_1_6_ImagePreviewViewController.swift in Sources */,
+				1D362CFA2262ABB20004C84A /* algae_0_1_1_6_AppDelegate.swift in Sources */,
+>>>>>>> fd70a6254418f6abdcf2b0aaeddb7b5b7026628a
 				1D55DB61225D215F00B1909B /* algae-0_1_3_ViewController.swift in Sources */,
 				C0C8A83B225DC8C40044E80D /* algae_0_2_MenuViewController.swift in Sources */,
 				4DA82971224DD8E7001FC7F5 /* algae_0_1_2_2_ViewController.swift in Sources */,
