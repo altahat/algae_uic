@@ -1,20 +1,20 @@
 //
-//  algae_0_2_AppDelegate.swift
+//  algae-0_1_1_6_AppDelegate.swift
 //  algae_uic
 //
-//  Created by GabrielMui on 4/10/19.
-//  Copyright © 2019 zaid. All rights reserved.
+//  Created by Elijah Mendez on 4/7/19.
+//  Copyright © 2019 Elijah Mendez. All rights reserved.
 //
 
 import UIKit
 
 //@UIApplicationMain
-class algae_0_2_AppDelegate: UIResponder, UIApplicationDelegate {
+class algae_0_1_1_6_AppDelegate: UIResponder, UIApplicationDelegate  {
     
     var window: UIWindow?
     
     
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+    internal func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true
     }
