@@ -22,6 +22,9 @@ class algae_0_1_2_ViewController: UIViewController, UITableViewDelegate, UITable
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        
+        cell.textLabel?.font = UIFont(name:"Avenir light",size:16)
+        
         let item = itemStore.allItems[indexPath.row]
         
         cell.textLabel?.text = item.name

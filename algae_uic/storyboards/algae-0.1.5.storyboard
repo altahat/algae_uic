@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="LUJ-jf-hUT">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Algae015 View Controller-->
+        <scene sceneID="H1h-2r-DKG">
+            <objects>
+                <viewController id="LUJ-jf-hUT" customClass="algae_0_1_5_ViewController" customModule="algae_uic" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="N5A-zn-ext">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1230"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Light_Bar" highlightedImage="Light_Bar" translatesAutoresizingMaskIntoConstraints="NO" id="8UF-nO-cPJ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="OJ7-kx-HV8"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uot-OF-AvO" userLabel="Hamburger">
+                                <rect key="frame" x="16" y="20" width="21" height="21"/>
+                                <state key="normal" title="Button" image="Hamburger Menu"/>
+                            </button>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6dE-cq-HU8">
+                                <rect key="frame" x="0.0" y="69" width="375" height="1082"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XBa-Gd-pqa">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1082"/>
+                                        <subviews>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6Mp-c4-HLT">
+                                                <rect key="frame" x="22" y="44" width="327" height="259"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <string key="text">Algae Watch is a predictive app that allows the user to determine the amount of HAB or Harmful Algal Blooms in a body of water. 
+
+This app will allow users to predict whether or not a body of water is safe through our estimating and calculative programs.
+
+Users will only need to input a few numerical values and our app will do the rest to ensure your safety near and far. 
+
+</string>
+                                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="16"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About Us" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kbn-x1-nL6">
+                                                <rect key="frame" x="25" y="17" width="106" height="35"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="24"/>
+                                                <color key="textColor" red="0.16078431369999999" green="0.51372549020000002" blue="0.51372549020000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Purpose" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b1D-4p-vo9">
+                                                <rect key="frame" x="25" y="313" width="62" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="21" id="5eg-XC-VF0"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="16"/>
+                                                <color key="textColor" red="0.16078431369999999" green="0.51372549020000002" blue="0.51372549020000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cX9-CO-0Uq">
+                                                <rect key="frame" x="22" y="334" width="327" height="235"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="235" id="vmT-X5-9sh"/>
+                                                </constraints>
+                                                <string key="text">Algae Watch was created for the public including experienced and non-experienced users to help find HAB at any time. 
+
+This app was created through the inspiration 
+of a team of environmentalists who wished to create a more aware community. Their 
+hopes are that many will use this app to be 
+able to find levels of HAB in water and make
+a safer decision to interact with water. </string>
+                                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="16"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="m4L-Oh-je5">
+                                                <rect key="frame" x="22" y="608" width="327" height="485"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="485" id="WH4-bn-8Kj"/>
+                                                </constraints>
+                                                <string key="text">All content on the Algae Watch App is created for your information only. Content is not a substitute for professional medical advice, it should not be relied on as health or personal advice as local conditions of algal blooms may vary. 
+
+Seek the guidance of a medical doctor or other qualified health professional with 
+any questions to a medical condition attributed to contact with algal blooms. 
+Never delay in seeking medical advice because of something you may have learned on this Website. If you choose to rely on any information provided by the contents on this site, you do so soley at your own risk. We 
+are not responsible for additional materials that may be provided from links to other websites or educational material, nor are we responsible for the claims of any such third party websites or educational providers.</string>
+                                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="16"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Disclaimer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O7S-J6-Vqi">
+                                                <rect key="frame" x="25" y="582" width="78" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="21" id="Z7M-r2-oF7"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="16"/>
+                                                <color key="textColor" red="0.16078431369999999" green="0.51372549020000002" blue="0.51372549020000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="O7S-J6-Vqi" firstAttribute="top" secondItem="cX9-CO-0Uq" secondAttribute="bottom" constant="13" id="0fd-xc-auR"/>
+                                            <constraint firstItem="m4L-Oh-je5" firstAttribute="top" secondItem="O7S-J6-Vqi" secondAttribute="bottom" constant="5" id="3kA-Ud-6ew"/>
+                                            <constraint firstAttribute="trailing" secondItem="b1D-4p-vo9" secondAttribute="trailing" constant="288" id="7cK-7S-dnE"/>
+                                            <constraint firstAttribute="trailing" secondItem="O7S-J6-Vqi" secondAttribute="trailing" constant="272" id="9xD-Fp-cf0"/>
+                                            <constraint firstAttribute="trailing" secondItem="cX9-CO-0Uq" secondAttribute="trailing" constant="26" id="JNn-Fm-FVQ"/>
+                                            <constraint firstItem="kbn-x1-nL6" firstAttribute="leading" secondItem="XBa-Gd-pqa" secondAttribute="leading" constant="25" id="JeL-Cj-b2T"/>
+                                            <constraint firstItem="m4L-Oh-je5" firstAttribute="top" secondItem="O7S-J6-Vqi" secondAttribute="bottom" constant="5" id="Kwa-xz-F7W"/>
+                                            <constraint firstAttribute="trailing" secondItem="kbn-x1-nL6" secondAttribute="trailing" constant="244" id="Kxi-6d-IDr"/>
+                                            <constraint firstItem="O7S-J6-Vqi" firstAttribute="leading" secondItem="XBa-Gd-pqa" secondAttribute="leading" constant="25" id="NJs-69-ey9"/>
+                                            <constraint firstAttribute="bottom" secondItem="6Mp-c4-HLT" secondAttribute="bottom" constant="779" id="VKW-Yb-AEx"/>
+                                            <constraint firstAttribute="trailing" secondItem="m4L-Oh-je5" secondAttribute="trailing" constant="26" id="VMl-FD-heU"/>
+                                            <constraint firstAttribute="trailing" secondItem="6Mp-c4-HLT" secondAttribute="trailing" constant="26" id="cck-Xh-dRZ"/>
+                                            <constraint firstItem="O7S-J6-Vqi" firstAttribute="top" secondItem="cX9-CO-0Uq" secondAttribute="bottom" constant="13" id="fxV-hu-eJq"/>
+                                            <constraint firstItem="m4L-Oh-je5" firstAttribute="leading" secondItem="XBa-Gd-pqa" secondAttribute="leading" constant="22" id="hFe-BX-CCF"/>
+                                            <constraint firstAttribute="bottom" secondItem="m4L-Oh-je5" secondAttribute="bottom" constant="-11" id="iga-ej-eRa"/>
+                                            <constraint firstItem="kbn-x1-nL6" firstAttribute="top" secondItem="XBa-Gd-pqa" secondAttribute="top" constant="17" id="lIK-Eb-Ne1"/>
+                                            <constraint firstItem="cX9-CO-0Uq" firstAttribute="top" secondItem="b1D-4p-vo9" secondAttribute="bottom" id="lf9-7w-Eou"/>
+                                            <constraint firstItem="6Mp-c4-HLT" firstAttribute="leading" secondItem="XBa-Gd-pqa" secondAttribute="leading" constant="22" id="pAm-Cx-n9E"/>
+                                            <constraint firstItem="6Mp-c4-HLT" firstAttribute="top" secondItem="XBa-Gd-pqa" secondAttribute="top" constant="44" id="pCy-Me-3ly"/>
+                                            <constraint firstItem="cX9-CO-0Uq" firstAttribute="leading" secondItem="XBa-Gd-pqa" secondAttribute="leading" constant="22" id="scu-D3-YmW"/>
+                                            <constraint firstItem="b1D-4p-vo9" firstAttribute="top" secondItem="kbn-x1-nL6" secondAttribute="bottom" constant="261" id="uK5-rR-Itz"/>
+                                            <constraint firstItem="b1D-4p-vo9" firstAttribute="leading" secondItem="XBa-Gd-pqa" secondAttribute="leading" constant="25" id="vt4-JR-VqP"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="XBa-Gd-pqa" secondAttribute="bottom" id="8bW-9E-Klg"/>
+                                    <constraint firstItem="XBa-Gd-pqa" firstAttribute="leading" secondItem="6dE-cq-HU8" secondAttribute="leading" id="Gqs-UB-dAI"/>
+                                    <constraint firstAttribute="trailing" secondItem="XBa-Gd-pqa" secondAttribute="trailing" id="Pjz-H6-abd"/>
+                                    <constraint firstItem="XBa-Gd-pqa" firstAttribute="centerY" secondItem="6dE-cq-HU8" secondAttribute="centerY" id="PpD-ez-yR8"/>
+                                    <constraint firstItem="XBa-Gd-pqa" firstAttribute="centerX" secondItem="6dE-cq-HU8" secondAttribute="centerX" id="ljT-l3-RSg"/>
+                                    <constraint firstItem="XBa-Gd-pqa" firstAttribute="top" secondItem="6dE-cq-HU8" secondAttribute="top" id="oXX-Jh-Dv6"/>
+                                </constraints>
+                            </scrollView>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jDr-36-0Xf">
+                                <rect key="frame" x="0.0" y="1148" width="375" height="82"/>
+                                <connections>
+                                    <segue destination="4Pd-mL-BGs" kind="embed" id="9Cl-nc-iea"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6dE-cq-HU8" firstAttribute="leading" secondItem="jDr-36-0Xf" secondAttribute="leading" id="0g3-8h-XgE"/>
+                            <constraint firstItem="7Oz-EP-ySv" firstAttribute="bottom" secondItem="6dE-cq-HU8" secondAttribute="bottom" constant="79" id="5Sp-wB-UPG"/>
+                            <constraint firstItem="6dE-cq-HU8" firstAttribute="leading" secondItem="8UF-nO-cPJ" secondAttribute="leading" id="7Ht-hP-Vn1"/>
+                            <constraint firstItem="6dE-cq-HU8" firstAttribute="top" secondItem="Uot-OF-AvO" secondAttribute="bottom" constant="28" id="88j-Ze-fNN"/>
+                            <constraint firstItem="6dE-cq-HU8" firstAttribute="trailing" secondItem="8UF-nO-cPJ" secondAttribute="trailing" id="93P-ds-uSd"/>
+                            <constraint firstAttribute="trailing" secondItem="6dE-cq-HU8" secondAttribute="trailing" id="ItB-l8-jO3"/>
+                            <constraint firstItem="Uot-OF-AvO" firstAttribute="top" secondItem="7Oz-EP-ySv" secondAttribute="top" id="JV8-1z-aO7"/>
+                            <constraint firstItem="Uot-OF-AvO" firstAttribute="leading" secondItem="N5A-zn-ext" secondAttribute="leadingMargin" id="Q6E-ax-CRd"/>
+                            <constraint firstItem="8UF-nO-cPJ" firstAttribute="top" secondItem="N5A-zn-ext" secondAttribute="top" id="Rlx-O3-0H4"/>
+                            <constraint firstItem="jDr-36-0Xf" firstAttribute="top" secondItem="N5A-zn-ext" secondAttribute="top" constant="1148" id="WsU-Qd-Nz6"/>
+                            <constraint firstItem="6dE-cq-HU8" firstAttribute="top" secondItem="N5A-zn-ext" secondAttribute="top" constant="69" id="giC-mC-QbC"/>
+                            <constraint firstItem="6dE-cq-HU8" firstAttribute="trailing" secondItem="jDr-36-0Xf" secondAttribute="trailing" id="h4K-hM-G7O"/>
+                            <constraint firstItem="7Oz-EP-ySv" firstAttribute="trailing" secondItem="Uot-OF-AvO" secondAttribute="trailing" constant="338" id="lr9-ko-Aqb"/>
+                            <constraint firstItem="6dE-cq-HU8" firstAttribute="leading" secondItem="N5A-zn-ext" secondAttribute="leading" id="sC6-lk-3Mm"/>
+                            <constraint firstItem="jDr-36-0Xf" firstAttribute="bottom" secondItem="7Oz-EP-ySv" secondAttribute="bottom" id="zRa-Lj-f0R"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="7Oz-EP-ySv"/>
+                    </view>
+                    <size key="freeformSize" width="375" height="1230"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oWQ-Cx-v6k" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="100" y="170.91454272863569"/>
+        </scene>
+        <!--Algae015 View Controller-->
+        <scene sceneID="MyA-u4-JqE">
+            <objects>
+                <viewController id="4Pd-mL-BGs" customClass="algae_0_1_5_ViewController" customModule="algae_uic" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CDO-9k-ZzN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="82"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NjJ-KG-sHs">
+                                <rect key="frame" x="23.5" y="25.5" width="328" height="31"/>
+                                <color key="backgroundColor" red="0.23137254900000001" green="0.68627450980000004" blue="0.68627450980000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="Ixc-AE-wR7"/>
+                                    <constraint firstAttribute="width" constant="328" id="hBj-sD-pwG"/>
+                                </constraints>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BFa-2M-cQz">
+                                <rect key="frame" x="122" y="26.5" width="131" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="44" id="JKS-zm-fXk"/>
+                                    <constraint firstAttribute="height" constant="30" id="Rtm-vm-Cjf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="15"/>
+                                <state key="normal" title="Leave Us Feedback">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="BFa-2M-cQz" firstAttribute="bottom" secondItem="NjJ-KG-sHs" secondAttribute="bottom" id="EjM-0D-PU9"/>
+                            <constraint firstItem="NjJ-KG-sHs" firstAttribute="centerY" secondItem="CDO-9k-ZzN" secondAttribute="centerY" id="I3T-iA-pKc"/>
+                            <constraint firstItem="BFa-2M-cQz" firstAttribute="centerX" secondItem="NjJ-KG-sHs" secondAttribute="centerX" id="dUR-sI-737"/>
+                            <constraint firstItem="NjJ-KG-sHs" firstAttribute="centerX" secondItem="CDO-9k-ZzN" secondAttribute="centerX" id="r9g-HJ-p6y"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="fej-mQ-lB4"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gwB-ad-qKh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="100" y="870"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Hamburger Menu" width="43" height="43"/>
+        <image name="Light_Bar" width="534" height="100"/>
+    </resources>
+</document>
