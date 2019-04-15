@@ -1,5 +1,5 @@
 //
-//  algae_0_1_2_1_ViewController.swift
+//  algae_0_1_ViewController.swift
 //  algae_uic
 //
 //  Created by Megan Kwiatkowski on 4/15/19.
@@ -7,7 +7,7 @@
 //
 import UIKit
 
-class algae_0_1_2_1_ViewController: UIViewController {
+class algae_0_1_ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()

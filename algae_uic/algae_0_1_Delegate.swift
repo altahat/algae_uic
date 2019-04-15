@@ -1,5 +1,5 @@
 //
-//  algae_0_1_2_1_Delegate.swift
+//  algae_0_1_Delegate.swift
 //  algae_uic
 //
 //  Created by Megan Kwiatkowski on 4/15/19.
@@ -7,15 +7,19 @@
 //
 import UIKit
 
-//@UIApplicationMain
-
-class algae_0_1_2_1_Delegate: UIResponder, UIApplicationDelegate {
+@UIApplicationMain
+class algae_0_1_AppDelegate: UIResponder, UIApplicationDelegate {
     
     var window: UIWindow?
     
-    
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //   let itemStore = ItemStore()
+        
+        //   let itemsController = window!.rootViewController as! algae_0_ViewController
+        //    itemsController.itemStore = itemStore
+        
         return true
     }
     
@@ -43,5 +47,4 @@ class algae_0_1_2_1_Delegate: UIResponder, UIApplicationDelegate {
     
     
 }
-
 
