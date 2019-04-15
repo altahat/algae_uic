@@ -22,12 +22,15 @@
                                 <rect key="frame" x="0.0" y="21" width="375" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ayb-li-Pwv">
-                                <rect key="frame" x="16" y="29" width="21" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ayb-li-Pwv">
+                                <rect key="frame" x="16" y="49" width="21" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="21" id="31I-5S-IBp"/>
+                                    <constraint firstAttribute="height" constant="21" id="rkC-CK-HzX"/>
+                                </constraints>
                                 <state key="normal" image="Back Arrow"/>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Green algal mats in desiccated river banks with blue algae (1)" translatesAutoresizingMaskIntoConstraints="NO" id="27Y-eU-vI9">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="algae_0_1_3_4_Img" translatesAutoresizingMaskIntoConstraints="NO" id="27Y-eU-vI9">
                                 <rect key="frame" x="0.0" y="89" width="375" height="227"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -86,6 +89,10 @@ Assessment Program</string>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Ayb-li-Pwv" firstAttribute="leading" secondItem="eLg-7H-Cjl" secondAttribute="leading" constant="16" id="7Es-sC-01K"/>
+                            <constraint firstItem="Ayb-li-Pwv" firstAttribute="top" secondItem="eLg-7H-Cjl" secondAttribute="top" constant="29" id="7tT-N5-SEQ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="eLg-7H-Cjl"/>
                     </view>
                 </viewController>
@@ -96,7 +103,7 @@ Assessment Program</string>
     </scenes>
     <resources>
         <image name="Back Arrow" width="44" height="44"/>
-        <image name="Green algal mats in desiccated river banks with blue algae (1)" width="2112" height="1584"/>
         <image name="Header" width="1750" height="287"/>
+        <image name="algae_0_1_3_4_Img" width="2112" height="1584"/>
     </resources>
 </document>

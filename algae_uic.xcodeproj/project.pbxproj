@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05941F0322653A5F00661E5D /* algae_0_1_3_4_AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05941F0122653A5F00661E5D /* algae_0_1_3_4_AppDelegate.swift */; };
+		05941F0422653A5F00661E5D /* algae_0_1_3_4_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05941F0222653A5F00661E5D /* algae_0_1_3_4_ViewController.swift */; };
+		05941F0622653D5900661E5D /* algae_0_1_3_3_AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05941F0522653D5900661E5D /* algae_0_1_3_3_AppDelegate.swift */; };
+		05941F0822653D9300661E5D /* algae_0_1_3_3_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05941F0722653D9300661E5D /* algae_0_1_3_3_ViewController.swift */; };
 		05F18E1E224D757F0077D0F2 /* algae_0_1_1_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F18E1D224D757F0077D0F2 /* algae_0_1_1_ViewController.swift */; };
 		05F18E20224D759C0077D0F2 /* algae_0_1_1_Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F18E1F224D759C0077D0F2 /* algae_0_1_1_Delegate.swift */; };
 		05F18E22224D8DF90077D0F2 /* algae_0_1_1_1_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F18E21224D8DF90077D0F2 /* algae_0_1_1_1_ViewController.swift */; };
@@ -22,8 +26,6 @@
 		1D55DB5F225D215F00B1909B /* algae-0_1_3_2_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D55DB5B225D215E00B1909B /* algae-0_1_3_2_ViewController.swift */; };
 		1D55DB60225D215F00B1909B /* algae-0_1_3_AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D55DB5C225D215F00B1909B /* algae-0_1_3_AppDelegate.swift */; };
 		1D55DB61225D215F00B1909B /* algae-0_1_3_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D55DB5D225D215F00B1909B /* algae-0_1_3_ViewController.swift */; };
-		27707A1A22653767003EEBB1 /* algae_0_1_3_4_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27707A1822653766003EEBB1 /* algae_0_1_3_4_ViewController.swift */; };
-		27707A1B22653767003EEBB1 /* algae_0_1_3_4_AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27707A1922653767003EEBB1 /* algae_0_1_3_4_AppDelegate.swift */; };
 		3F5875F622529BD700611355 /* algae-0.1.5.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F5875F522529BD700611355 /* algae-0.1.5.storyboard */; };
 		3F5875F82252AE2700611355 /* algae_0_1_5_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5875F72252AE2700611355 /* algae_0_1_5_ViewController.swift */; };
 		3F5875FA2252AE6000611355 /* algae_0_1_5_Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5875F92252AE6000611355 /* algae_0_1_5_Delegate.swift */; };
@@ -70,6 +72,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05941F0122653A5F00661E5D /* algae_0_1_3_4_AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = algae_0_1_3_4_AppDelegate.swift; sourceTree = "<group>"; };
+		05941F0222653A5F00661E5D /* algae_0_1_3_4_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = algae_0_1_3_4_ViewController.swift; sourceTree = "<group>"; };
+		05941F0522653D5900661E5D /* algae_0_1_3_3_AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = algae_0_1_3_3_AppDelegate.swift; sourceTree = "<group>"; };
+		05941F0722653D9300661E5D /* algae_0_1_3_3_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = algae_0_1_3_3_ViewController.swift; sourceTree = "<group>"; };
 		05F18E1D224D757F0077D0F2 /* algae_0_1_1_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = algae_0_1_1_ViewController.swift; sourceTree = "<group>"; };
 		05F18E1F224D759C0077D0F2 /* algae_0_1_1_Delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = algae_0_1_1_Delegate.swift; sourceTree = "<group>"; };
 		05F18E21224D8DF90077D0F2 /* algae_0_1_1_1_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = algae_0_1_1_1_ViewController.swift; sourceTree = "<group>"; };
@@ -85,8 +91,6 @@
 		1D55DB5B225D215E00B1909B /* algae-0_1_3_2_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "algae-0_1_3_2_ViewController.swift"; sourceTree = "<group>"; };
 		1D55DB5C225D215F00B1909B /* algae-0_1_3_AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "algae-0_1_3_AppDelegate.swift"; sourceTree = "<group>"; };
 		1D55DB5D225D215F00B1909B /* algae-0_1_3_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "algae-0_1_3_ViewController.swift"; sourceTree = "<group>"; };
-		27707A1822653766003EEBB1 /* algae_0_1_3_4_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = algae_0_1_3_4_ViewController.swift; path = "../../../../Desktop/algae_uic-master/algae_uic/algae_0_1_3_4_ViewController.swift"; sourceTree = "<group>"; };
-		27707A1922653767003EEBB1 /* algae_0_1_3_4_AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = algae_0_1_3_4_AppDelegate.swift; path = "../../../../Desktop/algae_uic-master/algae_uic/algae_0_1_3_4_AppDelegate.swift"; sourceTree = "<group>"; };
 		3F5875F522529BD700611355 /* algae-0.1.5.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "algae-0.1.5.storyboard"; sourceTree = "<group>"; };
 		3F5875F72252AE2700611355 /* algae_0_1_5_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = algae_0_1_5_ViewController.swift; sourceTree = "<group>"; };
 		3F5875F92252AE6000611355 /* algae_0_1_5_Delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = algae_0_1_5_Delegate.swift; sourceTree = "<group>"; };
@@ -187,9 +191,11 @@
 				4DA82972224DD9CD001FC7F5 /* algae_0_1_2_2_Delegate.swift */,
 				1D55DB5A225D215E00B1909B /* algae-0_1_3_2_AppDelegate.swift */,
 				1D55DB5B225D215E00B1909B /* algae-0_1_3_2_ViewController.swift */,
-				27707A1922653767003EEBB1 /* algae_0_1_3_4_AppDelegate.swift */,
-				27707A1822653766003EEBB1 /* algae_0_1_3_4_ViewController.swift */,
+				05941F0122653A5F00661E5D /* algae_0_1_3_4_AppDelegate.swift */,
+				05941F0222653A5F00661E5D /* algae_0_1_3_4_ViewController.swift */,
 				1D55DB5C225D215F00B1909B /* algae-0_1_3_AppDelegate.swift */,
+				05941F0522653D5900661E5D /* algae_0_1_3_3_AppDelegate.swift */,
+				05941F0722653D9300661E5D /* algae_0_1_3_3_ViewController.swift */,
 				1D55DB5D225D215F00B1909B /* algae-0_1_3_ViewController.swift */,
 				3F5875F72252AE2700611355 /* algae_0_1_5_ViewController.swift */,
 				3F5875F92252AE6000611355 /* algae_0_1_5_Delegate.swift */,
@@ -336,9 +342,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05941F0622653D5900661E5D /* algae_0_1_3_3_AppDelegate.swift in Sources */,
 				05F18E20224D759C0077D0F2 /* algae_0_1_1_Delegate.swift in Sources */,
 				C031CFA122651A8300C10A50 /* algae_0_2_AppDelegate.swift in Sources */,
 				B83E2746223D882F00EA8F27 /* ViewController.swift in Sources */,
+				05941F0822653D9300661E5D /* algae_0_1_3_3_ViewController.swift in Sources */,
 				C0A7F1E72251783E0069F563 /* algae_0_1_2_ViewController.swift in Sources */,
 				05F18E24224D8E110077D0F2 /* algae_0_1_1_1_Delegate.swift in Sources */,
 				C031CFA022651A8300C10A50 /* algae_0_2_ViewController.swift in Sources */,
@@ -349,7 +357,6 @@
 				C031CF9F22651A8300C10A50 /* algae_0_2_SlideInTransition.swift in Sources */,
 				05F18E1E224D757F0077D0F2 /* algae_0_1_1_ViewController.swift in Sources */,
 				1D362CFC2262ABC10004C84A /* algae_0_1_1_6_ViewController.swift in Sources */,
-				27707A1A22653767003EEBB1 /* algae_0_1_3_4_ViewController.swift in Sources */,
 				C0A7F1E5225177B50069F563 /* algae_0_1_2_AppDelegate.swift in Sources */,
 				1D55DB5F225D215F00B1909B /* algae-0_1_3_2_ViewController.swift in Sources */,
 				1D362D022262BF220004C84A /* algae-0_1_1_9_AppDelegate.swift in Sources */,
@@ -359,12 +366,13 @@
 				B83E2744223D882F00EA8F27 /* AppDelegate.swift in Sources */,
 				05F18E26224D95910077D0F2 /* algae_0_1_1_2_ViewController.swift in Sources */,
 				05F18E22224D8DF90077D0F2 /* algae_0_1_1_1_ViewController.swift in Sources */,
+				05941F0322653A5F00661E5D /* algae_0_1_3_4_AppDelegate.swift in Sources */,
+				05941F0422653A5F00661E5D /* algae_0_1_3_4_ViewController.swift in Sources */,
 				1D55DB5E225D215F00B1909B /* algae-0_1_3_2_AppDelegate.swift in Sources */,
 				1D362CFE2262ABD10004C84A /* algae-0_1_1_6_ImagePreviewViewController.swift in Sources */,
 				1D362CFA2262ABB20004C84A /* algae_0_1_1_6_AppDelegate.swift in Sources */,
 				1D55DB61225D215F00B1909B /* algae-0_1_3_ViewController.swift in Sources */,
 				4DA82971224DD8E7001FC7F5 /* algae_0_1_2_2_ViewController.swift in Sources */,
-				27707A1B22653767003EEBB1 /* algae_0_1_3_4_AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

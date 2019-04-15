@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tlV-5i-47P">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tlV-5i-47P">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,7 +13,7 @@
         <!--Algae013 View Controller-->
         <scene sceneID="NIH-zP-fd7">
             <objects>
-                <viewController id="tlV-5i-47P" customClass="algae_0_1_3_ViewController" customModule="algae_uic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="algae_0_1_3_ViewController" id="tlV-5i-47P" customClass="algae_0_1_3_ViewController" customModule="algae_uic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eqk-hc-Cl0">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -58,6 +58,9 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <color key="titleShadowColor" red="0.0" green="0.56284224989999998" blue="0.16663749080000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="P6w-82-sn1" kind="show" id="aV2-rC-y7X"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1BS-Fd-Fok">
                                 <rect key="frame" x="16" y="29" width="21" height="21"/>
@@ -163,9 +166,17 @@
             </objects>
             <point key="canvasLocation" x="72.799999999999997" y="86.806596701649184"/>
         </scene>
+        <!--algae-0.1.3.2.storyboard-->
+        <scene sceneID="iHW-9H-Ubz">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="algae-0.1.3.2.storyboard" storyboardName="algae-0.1.3.2" referencedIdentifier="algae-0.1.3.2.storyboard" id="P6w-82-sn1" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NaG-hM-TMX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="652" y="-130"/>
+        </scene>
     </scenes>
     <resources>
-        <image name="Image-1" width="1485.5" height="2640.5"/>
-        <image name="Image-2" width="119" height="119"/>
+        <image name="Image-1" width="750.41998291015625" height="1334.1600341796875"/>
+        <image name="Image-2" width="42.840000152587891" height="42.840000152587891"/>
     </resources>
 </document>

@@ -80,12 +80,6 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="96.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Visual Estimate" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XCu-Xg-Pgj">
-                                                    <rect key="frame" x="102" y="32" width="171" height="33"/>
-                                                    <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="24"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fVr-GB-7tN">
                                                     <rect key="frame" x="16" y="94.5" width="359" height="2"/>
                                                     <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
@@ -93,12 +87,22 @@
                                                         <constraint firstAttribute="height" constant="2" id="Fqd-S4-6vF"/>
                                                     </constraints>
                                                 </view>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bnu-iO-np6">
+                                                    <rect key="frame" x="102" y="26" width="171" height="45"/>
+                                                    <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="24"/>
+                                                    <state key="normal" title="Visual Estimate">
+                                                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    </state>
+                                                    <connections>
+                                                        <segue destination="h2D-q6-zDs" kind="show" id="OZM-iU-nh2"/>
+                                                    </connections>
+                                                </button>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="XCu-Xg-Pgj" firstAttribute="centerX" secondItem="Bih-oJ-wUI" secondAttribute="centerX" id="6NC-Lf-yWR"/>
                                                 <constraint firstAttribute="bottom" secondItem="fVr-GB-7tN" secondAttribute="bottom" id="D9f-gY-2A2"/>
-                                                <constraint firstItem="XCu-Xg-Pgj" firstAttribute="centerY" secondItem="Bih-oJ-wUI" secondAttribute="centerY" id="KiB-8p-lFo"/>
+                                                <constraint firstItem="Bnu-iO-np6" firstAttribute="centerX" secondItem="Bih-oJ-wUI" secondAttribute="centerX" id="OWC-f8-yrK"/>
                                                 <constraint firstAttribute="trailing" secondItem="fVr-GB-7tN" secondAttribute="trailing" id="bfU-dE-ekZ"/>
+                                                <constraint firstItem="Bnu-iO-np6" firstAttribute="centerY" secondItem="Bih-oJ-wUI" secondAttribute="centerY" id="g74-Mv-mGq"/>
                                                 <constraint firstItem="fVr-GB-7tN" firstAttribute="leading" secondItem="Bih-oJ-wUI" secondAttribute="leading" constant="16" id="yVo-13-SC0"/>
                                             </constraints>
                                         </tableViewCellContentView>
@@ -110,12 +114,6 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="96.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="View/Input Data" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wvD-Nu-vEY">
-                                                    <rect key="frame" x="95.5" y="32" width="184" height="33"/>
-                                                    <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="24"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9oo-Nc-e0Q">
                                                     <rect key="frame" x="16" y="94.5" width="359" height="2"/>
                                                     <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
@@ -123,13 +121,20 @@
                                                         <constraint firstAttribute="height" constant="2" id="EzI-9G-Cwl"/>
                                                     </constraints>
                                                 </view>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="csp-N1-Hyh">
+                                                    <rect key="frame" x="95.5" y="26" width="184" height="45"/>
+                                                    <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="24"/>
+                                                    <state key="normal" title="View/Input Data">
+                                                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    </state>
+                                                </button>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="trailing" secondItem="9oo-Nc-e0Q" secondAttribute="trailing" id="BJT-Ke-9n1"/>
                                                 <constraint firstItem="9oo-Nc-e0Q" firstAttribute="leading" secondItem="x41-gH-L0I" secondAttribute="leading" constant="16" id="cii-da-Mgr"/>
                                                 <constraint firstAttribute="bottom" secondItem="9oo-Nc-e0Q" secondAttribute="bottom" id="f36-Ta-nZo"/>
-                                                <constraint firstItem="wvD-Nu-vEY" firstAttribute="centerY" secondItem="x41-gH-L0I" secondAttribute="centerY" id="lFI-pn-ifL"/>
-                                                <constraint firstItem="wvD-Nu-vEY" firstAttribute="centerX" secondItem="x41-gH-L0I" secondAttribute="centerX" id="yQJ-bS-OVS"/>
+                                                <constraint firstItem="csp-N1-Hyh" firstAttribute="centerX" secondItem="x41-gH-L0I" secondAttribute="centerX" id="jrZ-7i-vPZ"/>
+                                                <constraint firstItem="csp-N1-Hyh" firstAttribute="centerY" secondItem="x41-gH-L0I" secondAttribute="centerY" id="nJB-Cn-0a3"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -140,12 +145,16 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="96.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About Algae" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a9v-fy-qBc">
-                                                    <rect key="frame" x="116" y="32" width="143" height="33"/>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oDH-A9-bvr">
+                                                    <rect key="frame" x="116" y="26" width="143" height="45"/>
                                                     <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="24"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
+                                                    <state key="normal" title="About Algae">
+                                                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    </state>
+                                                    <connections>
+                                                        <segue destination="xmH-PS-4Ry" kind="show" id="w9b-Sr-Oe8"/>
+                                                    </connections>
+                                                </button>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Fd-cA-R3X">
                                                     <rect key="frame" x="16" y="94.5" width="359" height="2"/>
                                                     <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
@@ -156,10 +165,10 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="trailing" secondItem="2Fd-cA-R3X" secondAttribute="trailing" id="87n-qr-Awl"/>
+                                                <constraint firstItem="oDH-A9-bvr" firstAttribute="centerX" secondItem="XB0-Vo-TvH" secondAttribute="centerX" id="HEY-2Y-lE4"/>
                                                 <constraint firstItem="2Fd-cA-R3X" firstAttribute="leading" secondItem="XB0-Vo-TvH" secondAttribute="leading" constant="16" id="LYw-a0-gLV"/>
+                                                <constraint firstItem="oDH-A9-bvr" firstAttribute="centerY" secondItem="XB0-Vo-TvH" secondAttribute="centerY" id="N2D-Q3-oOt"/>
                                                 <constraint firstAttribute="bottom" secondItem="2Fd-cA-R3X" secondAttribute="bottom" id="qs2-kV-BLJ"/>
-                                                <constraint firstItem="a9v-fy-qBc" firstAttribute="centerX" secondItem="XB0-Vo-TvH" secondAttribute="centerX" id="sxc-eO-GSL"/>
-                                                <constraint firstItem="a9v-fy-qBc" firstAttribute="centerY" secondItem="XB0-Vo-TvH" secondAttribute="centerY" id="zJt-ZA-uXy"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -170,12 +179,6 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="96.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Map" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QRG-Tq-5aS">
-                                                    <rect key="frame" x="162.5" y="32" width="50.5" height="33"/>
-                                                    <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="24"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xa0-T7-S16">
                                                     <rect key="frame" x="16" y="94.5" width="359" height="2"/>
                                                     <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
@@ -183,13 +186,20 @@
                                                         <constraint firstAttribute="height" constant="2" id="auI-xn-ag5"/>
                                                     </constraints>
                                                 </view>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6eQ-nO-fFi">
+                                                    <rect key="frame" x="162" y="26" width="51" height="45"/>
+                                                    <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="24"/>
+                                                    <state key="normal" title="Map">
+                                                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    </state>
+                                                </button>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstItem="6eQ-nO-fFi" firstAttribute="centerY" secondItem="Y7g-ns-d7J" secondAttribute="centerY" id="Ed5-nQ-h9t"/>
                                                 <constraint firstAttribute="trailing" secondItem="Xa0-T7-S16" secondAttribute="trailing" id="GnO-01-P4T"/>
                                                 <constraint firstAttribute="bottom" secondItem="Xa0-T7-S16" secondAttribute="bottom" id="Q9X-bb-ie0"/>
-                                                <constraint firstItem="QRG-Tq-5aS" firstAttribute="centerY" secondItem="Y7g-ns-d7J" secondAttribute="centerY" id="i09-cr-bUU"/>
+                                                <constraint firstItem="6eQ-nO-fFi" firstAttribute="centerX" secondItem="Y7g-ns-d7J" secondAttribute="centerX" id="i3w-iD-gyP"/>
                                                 <constraint firstItem="Xa0-T7-S16" firstAttribute="leading" secondItem="Y7g-ns-d7J" secondAttribute="leading" constant="16" id="lDh-wK-TXZ"/>
-                                                <constraint firstItem="QRG-Tq-5aS" firstAttribute="centerX" secondItem="Y7g-ns-d7J" secondAttribute="centerX" id="mWj-2t-ykG"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -200,12 +210,6 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="96.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ovn-vB-QS9">
-                                                    <rect key="frame" x="152.5" y="32" width="70.5" height="33"/>
-                                                    <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="24"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hw8-pH-4DO">
                                                     <rect key="frame" x="16" y="94.5" width="359" height="2"/>
                                                     <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
@@ -213,12 +217,22 @@
                                                         <constraint firstAttribute="height" constant="2" id="27a-hE-M5p"/>
                                                     </constraints>
                                                 </view>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qVS-WT-bSY">
+                                                    <rect key="frame" x="152" y="26" width="71" height="45"/>
+                                                    <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="24"/>
+                                                    <state key="normal" title="About">
+                                                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    </state>
+                                                    <connections>
+                                                        <segue destination="6z4-87-WSS" kind="show" id="vuY-Or-eoE"/>
+                                                    </connections>
+                                                </button>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstItem="qVS-WT-bSY" firstAttribute="centerX" secondItem="nXv-ri-DGI" secondAttribute="centerX" id="TPn-7a-odk"/>
                                                 <constraint firstItem="Hw8-pH-4DO" firstAttribute="leading" secondItem="nXv-ri-DGI" secondAttribute="leading" constant="16" id="Wkh-xI-UR5"/>
-                                                <constraint firstItem="Ovn-vB-QS9" firstAttribute="centerY" secondItem="nXv-ri-DGI" secondAttribute="centerY" id="hLc-Dd-TEq"/>
                                                 <constraint firstAttribute="bottom" secondItem="Hw8-pH-4DO" secondAttribute="bottom" id="oou-Tc-Ru4"/>
-                                                <constraint firstItem="Ovn-vB-QS9" firstAttribute="centerX" secondItem="nXv-ri-DGI" secondAttribute="centerX" id="s2z-x2-Q1U"/>
+                                                <constraint firstItem="qVS-WT-bSY" firstAttribute="centerY" secondItem="nXv-ri-DGI" secondAttribute="centerY" id="rOK-xO-NyA"/>
                                                 <constraint firstAttribute="trailing" secondItem="Hw8-pH-4DO" secondAttribute="trailing" id="tw3-3J-g8S"/>
                                             </constraints>
                                         </tableViewCellContentView>
@@ -235,6 +249,30 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CQB-58-eMX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1965.5999999999999" y="168.6656671664168"/>
+        </scene>
+        <!--algae_0_1_1_ViewController-->
+        <scene sceneID="gCc-pL-Xb7">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="algae_0_1_1_ViewController" storyboardName="algae-0.1.1" referencedIdentifier="algae_0_1_1_ViewController" id="h2D-q6-zDs" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l9B-10-BGV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2602" y="22"/>
+        </scene>
+        <!--algae_0_1_3_ViewController-->
+        <scene sceneID="TCd-I8-Od2">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="algae_0_1_3_ViewController" storyboardName="algae-0.1.3" referencedIdentifier="algae_0_1_3_ViewController" id="xmH-PS-4Ry" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nvE-iy-6tA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2636" y="190"/>
+        </scene>
+        <!--algae_0_1_5_ViewController-->
+        <scene sceneID="4Lc-xV-9gh">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="algae_0_1_5_ViewController" storyboardName="algae-0.1.5" referencedIdentifier="algae_0_1_5_ViewController" id="6z4-87-WSS" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v7O-UX-HbJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2636" y="345"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="d9k-KF-az3">

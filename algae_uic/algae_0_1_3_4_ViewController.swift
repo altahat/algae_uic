@@ -8,14 +8,14 @@
 
 import UIKit
 
-class algae_0_1_3_4_ViewController: UIViewController {
+class algae_0_1_3_4_ViewController: UIViewController, UITextViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
 
-}
-class ViewController: UIViewController, UITextViewDelegate {
+    }
+    /*
         @IBOutlet var textView: UITextView!
         
         override func viewDidLoad() {
@@ -31,4 +31,5 @@ class ViewController: UIViewController, UITextViewDelegate {
             return false
         }
     }
+ */
 }

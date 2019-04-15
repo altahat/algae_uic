@@ -19,13 +19,13 @@ class algae_0_1_3_2_ViewController: UIViewController, UITableViewDelegate, UITab
     
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
-        return (list.count)
+        return (list2.count)
     }
     
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
         let cell = UITableViewCell(style: UITableViewCell.CellStyle.default, reuseIdentifier: "cell")
-        cell.textLabel?.text = list[indexPath.row]
+        cell.textLabel?.text = list2[indexPath.row]
         cell.textLabel?.font = UIFont(name:"Avenir light", size:16)
         
         return(cell)

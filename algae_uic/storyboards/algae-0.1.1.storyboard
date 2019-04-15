@@ -10,10 +10,18 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--algae_0_2_MenuViewController-->
+        <scene sceneID="vkz-tj-gq5">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="algae_0_2_MenuViewController" storyboardName="algae-0.2" referencedIdentifier="algae_0_2_MenuViewController" id="Wm4-er-3TM" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WAf-5c-Kbc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-393" y="-113"/>
+        </scene>
         <!--Algae011 View Controller-->
         <scene sceneID="Kna-41-2aQ">
             <objects>
-                <viewController id="nhu-aU-lSY" customClass="algae_0_1_1_ViewController" customModule="algae_uic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="algae_0_1_1_ViewController" id="nhu-aU-lSY" customClass="algae_0_1_1_ViewController" customModule="algae_uic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kjQ-3n-fLa">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -32,6 +40,9 @@
                                     <constraint firstAttribute="width" constant="21" id="Xt1-jk-5w9"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="Hamburger Menu"/>
+                                <connections>
+                                    <segue destination="Wm4-er-3TM" kind="show" id="4yG-aw-PHB"/>
+                                </connections>
                             </button>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iXt-4Z-DVJ">
                                 <rect key="frame" x="22.5" y="68" width="330" height="599"/>
@@ -54,6 +65,9 @@
                                                 <state key="normal" image="algae_0_1_1_Img1">
                                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <segue destination="Gij-Cx-MRF" kind="show" id="sm8-7r-lcE"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SSm-MV-17u">
                                                 <rect key="frame" x="0.0" y="294" width="330" height="200"/>
@@ -74,6 +88,9 @@
                                                 <state key="normal" image="algae_0_1_1_Img3">
                                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <segue destination="nul-UD-6Rq" kind="show" id="qtz-0q-Lkc"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -105,6 +122,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NiT-y6-KAw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="120.8" y="152.47376311844079"/>
+        </scene>
+        <!--algae_0_1_1_2_ViewController-->
+        <scene sceneID="kgE-32-nEk">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="algae_0_1_1_2_ViewController" storyboardName="algae-0.1.1.2" referencedIdentifier="algae_0_1_1_2_ViewController" id="Gij-Cx-MRF" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9pI-DL-jqY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="706" y="29"/>
+        </scene>
+        <!--algae_0_1_1_1_ViewController-->
+        <scene sceneID="n0m-tE-DHh">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="algae_0_1_1_1_ViewController" storyboardName="algae-0.1.1.1" referencedIdentifier="algae_0_1_1_1_ViewController" id="nul-UD-6Rq" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xBD-my-Zgb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="709" y="293"/>
         </scene>
     </scenes>
     <resources>
