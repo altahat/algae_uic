@@ -1,15 +1,15 @@
 //
-//  algae_0_1_5_Delegate.swift
+//  algae_0_1_2_1_Delegate.swift
 //  algae_uic
 //
-//  Created by Student on 4/1/19.
+//  Created by Megan Kwiatkowski on 4/15/19.
 //  Copyright © 2019 zaid. All rights reserved.
 //
-
 import UIKit
 
-@UIApplicationMain
-class algae_0_1_5_Delegate: UIResponder, UIApplicationDelegate {
+//@UIApplicationMain
+
+class algae_0_1_2_1_Delegate: UIResponder, UIApplicationDelegate {
     
     var window: UIWindow?
     
@@ -43,3 +43,5 @@ class algae_0_1_5_Delegate: UIResponder, UIApplicationDelegate {
     
     
 }
+
+
