@@ -26,7 +26,7 @@ class algae_0_1_3_2_ViewController: UIViewController, UITableViewDelegate, UITab
     {
         let cell = UITableViewCell(style: UITableViewCell.CellStyle.default, reuseIdentifier: "cell")
         cell.textLabel?.text = list[indexPath.row]
-         cell.textLabel?.font = UIFont(name:"Avenir light", size:16)
+        cell.textLabel?.font = UIFont(name:"Avenir light", size:16)
         
         return(cell)
     }
