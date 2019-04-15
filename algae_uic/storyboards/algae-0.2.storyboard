@@ -54,34 +54,27 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <view key="tableHeaderView" contentMode="scaleToFill" id="Dfw-zf-KzA">
-                            <rect key="frame" x="0.0" y="0.0" width="375" height="116"/>
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="103"/>
                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wagch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MYW-JV-D6e">
-                                    <rect key="frame" x="117.5" y="50.5" width="140" height="60.5"/>
-                                    <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="44"/>
-                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <nil key="highlightedColor"/>
-                                </label>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Algae" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZPU-jt-5at">
-                                    <rect key="frame" x="127.5" y="5" width="120" height="61"/>
-                                    <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="44"/>
-                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <nil key="highlightedColor"/>
-                                </label>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Title" translatesAutoresizingMaskIntoConstraints="NO" id="Kjn-AJ-Q91">
+                                    <rect key="frame" x="108" y="0.0" width="158" height="83"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="158" id="1zd-Wf-KPm"/>
+                                        <constraint firstAttribute="height" constant="83" id="Jqg-Fr-Nq7"/>
+                                    </constraints>
+                                </imageView>
                             </subviews>
                             <constraints>
-                                <constraint firstAttribute="bottom" secondItem="MYW-JV-D6e" secondAttribute="bottom" constant="5" id="Cdx-Hj-gHr"/>
-                                <constraint firstItem="MYW-JV-D6e" firstAttribute="centerX" secondItem="Dfw-zf-KzA" secondAttribute="centerX" id="Hse-oz-1cq"/>
-                                <constraint firstItem="ZPU-jt-5at" firstAttribute="top" secondItem="Dfw-zf-KzA" secondAttribute="top" constant="5" id="bVh-K7-VxY"/>
-                                <constraint firstItem="ZPU-jt-5at" firstAttribute="centerX" secondItem="Dfw-zf-KzA" secondAttribute="centerX" id="epl-vS-MWt"/>
+                                <constraint firstItem="Kjn-AJ-Q91" firstAttribute="centerX" secondItem="Dfw-zf-KzA" secondAttribute="centerX" id="ZF8-GY-3of"/>
+                                <constraint firstItem="Kjn-AJ-Q91" firstAttribute="centerY" secondItem="Dfw-zf-KzA" secondAttribute="centerY" id="gde-Kq-dpL"/>
                             </constraints>
                         </view>
                         <sections>
                             <tableViewSection id="Pbm-aW-LBD">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="97" id="dMH-6c-BNq">
-                                        <rect key="frame" x="0.0" y="116" width="375" height="97"/>
+                                        <rect key="frame" x="0.0" y="103" width="375" height="97"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="dMH-6c-BNq" id="Bih-oJ-wUI">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="96.5"/>
@@ -94,7 +87,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fVr-GB-7tN">
-                                                    <rect key="frame" x="16" y="95" width="359" height="2"/>
+                                                    <rect key="frame" x="16" y="94.5" width="359" height="2"/>
                                                     <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="2" id="Fqd-S4-6vF"/>
@@ -111,7 +104,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="97" id="bTZ-hc-Wbk">
-                                        <rect key="frame" x="0.0" y="213" width="375" height="97"/>
+                                        <rect key="frame" x="0.0" y="200" width="375" height="97"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="bTZ-hc-Wbk" id="x41-gH-L0I">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="96.5"/>
@@ -124,7 +117,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9oo-Nc-e0Q">
-                                                    <rect key="frame" x="16" y="95" width="359" height="2"/>
+                                                    <rect key="frame" x="16" y="94.5" width="359" height="2"/>
                                                     <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="2" id="EzI-9G-Cwl"/>
@@ -141,7 +134,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="97" id="qgd-Km-8Hk">
-                                        <rect key="frame" x="0.0" y="310" width="375" height="97"/>
+                                        <rect key="frame" x="0.0" y="297" width="375" height="97"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="qgd-Km-8Hk" id="XB0-Vo-TvH">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="96.5"/>
@@ -154,7 +147,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Fd-cA-R3X">
-                                                    <rect key="frame" x="16" y="95" width="359" height="2"/>
+                                                    <rect key="frame" x="16" y="94.5" width="359" height="2"/>
                                                     <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="2" id="tLV-vw-2Mh"/>
@@ -171,7 +164,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="97" id="oX5-3e-wgK">
-                                        <rect key="frame" x="0.0" y="407" width="375" height="97"/>
+                                        <rect key="frame" x="0.0" y="394" width="375" height="97"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="oX5-3e-wgK" id="Y7g-ns-d7J">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="96.5"/>
@@ -184,7 +177,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xa0-T7-S16">
-                                                    <rect key="frame" x="16" y="95" width="359" height="2"/>
+                                                    <rect key="frame" x="16" y="94.5" width="359" height="2"/>
                                                     <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="2" id="auI-xn-ag5"/>
@@ -201,7 +194,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="97" id="sBe-sE-RAm">
-                                        <rect key="frame" x="0.0" y="504" width="375" height="97"/>
+                                        <rect key="frame" x="0.0" y="491" width="375" height="97"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="sBe-sE-RAm" id="nXv-ri-DGI">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="96.5"/>
@@ -214,7 +207,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hw8-pH-4DO">
-                                                    <rect key="frame" x="16" y="95" width="359" height="2"/>
+                                                    <rect key="frame" x="16" y="94.5" width="359" height="2"/>
                                                     <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="2" id="27a-hE-M5p"/>
@@ -264,6 +257,7 @@
     </scenes>
     <resources>
         <image name="Hamburger Menu" width="43" height="43"/>
+        <image name="Title" width="283" height="173.5"/>
         <image name="bg" width="751" height="1334.5"/>
     </resources>
 </document>
