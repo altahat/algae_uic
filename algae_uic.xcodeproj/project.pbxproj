@@ -27,6 +27,8 @@
 		3F5875FA2252AE6000611355 /* algae_0_1_5_Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5875F92252AE6000611355 /* algae_0_1_5_Delegate.swift */; };
 		4DA82971224DD8E7001FC7F5 /* algae_0_1_2_2_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA82970224DD8E7001FC7F5 /* algae_0_1_2_2_ViewController.swift */; };
 		4DA82973224DD9CD001FC7F5 /* algae_0_1_2_2_Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA82972224DD9CD001FC7F5 /* algae_0_1_2_2_Delegate.swift */; };
+		5FFE2ABD226536630074FE08 /* algae_0_1_2_1_Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFE2ABB226536630074FE08 /* algae_0_1_2_1_Delegate.swift */; };
+		5FFE2ABE226536630074FE08 /* algae_0_1_2_1_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFE2ABC226536630074FE08 /* algae_0_1_2_1_ViewController.swift */; };
 		B83E2744223D882F00EA8F27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83E2743223D882F00EA8F27 /* AppDelegate.swift */; };
 		B83E2746223D882F00EA8F27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83E2745223D882F00EA8F27 /* ViewController.swift */; };
 		B83E2749223D882F00EA8F27 /* Main.0.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B83E2747223D882F00EA8F27 /* Main.0.storyboard */; };
@@ -88,6 +90,8 @@
 		3F5875F92252AE6000611355 /* algae_0_1_5_Delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = algae_0_1_5_Delegate.swift; sourceTree = "<group>"; };
 		4DA82970224DD8E7001FC7F5 /* algae_0_1_2_2_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = algae_0_1_2_2_ViewController.swift; sourceTree = "<group>"; };
 		4DA82972224DD9CD001FC7F5 /* algae_0_1_2_2_Delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = algae_0_1_2_2_Delegate.swift; sourceTree = "<group>"; };
+		5FFE2ABB226536630074FE08 /* algae_0_1_2_1_Delegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = algae_0_1_2_1_Delegate.swift; sourceTree = "<group>"; };
+		5FFE2ABC226536630074FE08 /* algae_0_1_2_1_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = algae_0_1_2_1_ViewController.swift; sourceTree = "<group>"; };
 		B83E2740223D882F00EA8F27 /* algae_uic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = algae_uic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B83E2743223D882F00EA8F27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B83E2745223D882F00EA8F27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -179,6 +183,8 @@
 				1D362CFD2262ABD10004C84A /* algae-0_1_1_6_ImagePreviewViewController.swift */,
 				1D362D002262BF220004C84A /* algae-0_1_1_9_AppDelegate.swift */,
 				1D362CFF2262BF220004C84A /* algae-0_1_1_9_ViewController.swift */,
+				5FFE2ABB226536630074FE08 /* algae_0_1_2_1_Delegate.swift */,
+				5FFE2ABC226536630074FE08 /* algae_0_1_2_1_ViewController.swift */,
 				4DA82970224DD8E7001FC7F5 /* algae_0_1_2_2_ViewController.swift */,
 				4DA82972224DD9CD001FC7F5 /* algae_0_1_2_2_Delegate.swift */,
 				1D55DB5A225D215E00B1909B /* algae-0_1_3_2_AppDelegate.swift */,
@@ -343,8 +349,10 @@
 				C031CF9F22651A8300C10A50 /* algae_0_2_SlideInTransition.swift in Sources */,
 				05F18E1E224D757F0077D0F2 /* algae_0_1_1_ViewController.swift in Sources */,
 				1D362CFC2262ABC10004C84A /* algae_0_1_1_6_ViewController.swift in Sources */,
+				5FFE2ABE226536630074FE08 /* algae_0_1_2_1_ViewController.swift in Sources */,
 				C0A7F1E5225177B50069F563 /* algae_0_1_2_AppDelegate.swift in Sources */,
 				1D55DB5F225D215F00B1909B /* algae-0_1_3_2_ViewController.swift in Sources */,
+				5FFE2ABD226536630074FE08 /* algae_0_1_2_1_Delegate.swift in Sources */,
 				1D362D022262BF220004C84A /* algae-0_1_1_9_AppDelegate.swift in Sources */,
 				C031CFA222651A8300C10A50 /* algae_0_2_MenuViewController.swift in Sources */,
 				1D362D012262BF220004C84A /* algae-0_1_1_9_ViewController.swift in Sources */,
