@@ -8,7 +8,7 @@
 
 import UIKit
 
-@UIApplicationMain
+//@UIApplicationMain
 class algae_0_1_3_Delegate: UIResponder, UIApplicationDelegate {
     
     var window: UIWindow?
